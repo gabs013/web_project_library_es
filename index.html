@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <!-- Envuelve todo el contenido de la página en un nuevo div con la clase page Recuerda agregar la etiqueta de cierre -->
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
+          <ul class="nav__links">
+            <li>
+              <a href="#staff" class="nav__link"
+                >Los preferidos de nuestros lectores</a
+              >
+            </li>
+            <li><a class="nav__link">Eventos</a></li>
+            <li><a class="nav__link">Conviértete en miembro</a></li>
+            <li><a class="nav__link">Contactos</a></li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Bienvenidos a la biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+              estudiantes!
+            </p>
+          </div>
+
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section id="staff" class="staff">
+          <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title card__title_centered">Los divagantes</h3>
+                <p class="card__text card__text_justified">
+                  Ocho impetuosos relatos, de los que emergen lo desconocido y
+                  los miedos más profundos que envuelven a sus personajes. Como
+                  siempre, Guadalupe Nettel, ahonda en la extrañeza de la
+                  cotidianidad, en la belleza de lo imperfecto que nos envuelve
+                  aún cuando estamos tan absortos en la rutina. Y nos lleva a
+                  cuestionarnos si realmente somos albatroces divagantes en
+                  constante búsqueda de lo que somos o, alguna vez fuimos.
+                </p>
+                <p class="card__footer">
+                  "Los divagantes", Nettel, Guadalupe, 2023.
+                </p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title card__title_centered">
+                  Mujer que sabe latín
+                </h3>
+                <p class="card__text card__text_justified">
+                  Ensayo en el cual Rosario Castellanos analiza y reflexiona
+                  sobre el papel que desempeñamos las mujeres ante la sociedad.
+                  Haciendo énfasis en el pensamiento socio cultural mexicano, y
+                  la cultura latinoamericana. Puesto que así como surgió un
+                  pensamiento feminista en la pluma parisina de Beauvoir, viendo
+                  por las problematicas socio culturales de aquellas tierras.
+                  Rosario Castellanos dio voz a un despertar crítico de la mujer
+                  mexicana.
+                </p>
+                <p class="card__footer">
+                  "Mujer que sabe latín", Castellanos, Rosario, 1973.
+                </p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  Veinte poemas para ser leídos en el tranvía
+                </h3>
+                <p class="card__text card__text_justified">
+                  La poesía paroxística y mordaz de Oliverio Girondo irrumpe y
+                  sacude la lúgubre rutina del día a día, haciendo que hasta el
+                  más acartonado historiador aprenda a volar entre los nubífagos
+                  de la poesía vanguardista latinoamericana. Leer la poesía de
+                  Girondo nos vuelve receptivos para aprender a mirar lo
+                  insólito en lo cotidiano; aquello que pasamos por alto en un
+                  abúlico día y que puede llegar a ser etéreo.
+                </p>
+                <p class="card__footer">
+                  "Veinte poemas para ser leídos en el tranvía", Girondo,
+                  Oliverio, 1922.
+                </p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Jardín de senderos que se bifurcan</h3>
+                <p class="card__text card__text_justified">
+                  ¿Qué es el sueño? Es, quizá, una continuidad del universo. Ese
+                  universo del que todos somos un personaje. Un gramaje. Somos,
+                  tal vez, una infinita y finita continuidad de constantes y
+                  diversas realidades. Tal como es el cuento que nos presenta
+                  Borges. Una decisión bifurca en una realidad súbita para el
+                  personaje de dicha historia. Invitando a cuestionarnos
+                  nuestras propias realidades bifurcadas.
+                </p>
+                <p class="card__footer">
+                  "El jardín de senderos que se bifurcan", Jorge Luis Borges,
+                  1941.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
