@@ -1,5 +1,4 @@
 .page {
-  /* Agrega las propiedades de la clase page aquí */
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
@@ -20,7 +19,6 @@
 }
 
 .nav {
-  /* Agrega las propiedades flex aquí */
   display: flex;
   justify-content: space-between;
   /*align-items: flex-start;*/
@@ -37,7 +35,6 @@
 }
 
 .nav__links {
-  /* Restablece los estilos predeterminados de list aquí */
   display: flex;
   /*flex-direction: row;*/
   /*justify-content: space-between;*/
@@ -54,7 +51,6 @@
 }
 
 .header__content {
-  /* Agrega las propiedades flex aquí */
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -109,7 +105,7 @@
   color: #838383;
 }
 
-/*Código CSS proporcionado por el curso TripleTen*/
+/*Código CSS proporcionado por el curso TripleTen sobre la sección de staff*/
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-size: cover;
@@ -135,8 +131,6 @@
   margin: 0;
   color: #ffffff;
 }
-
-/* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 
 .staff__cards {
   max-width: 760px;
@@ -348,14 +342,12 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Agrega estilos */
   display: flex;
   justify-content: center;
   gap: 40px;
 }
 
 .step {
-  /* Agrega estilos */
   flex-basis: 220px;
 }
 
